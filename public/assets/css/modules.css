@@ -462,6 +462,7 @@ button,
 
 #main {
   margin-left: 375px;
+  position: relative;
 }
 
   #main > section {
@@ -503,8 +504,20 @@ button,
     }
 
     #main > section.one {
-      background-color: #ffb323;
-      background-image: url("../../images/fire-abstract-1080x720.jpg");
+      /* background-color: #ffb323; */
+      background-image: url("../../images/hd0941.mov");
+      position: relative;
+    }
+    #myvideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 200px; 
+      min-height: 500px;
+      z-index: -10;
+    }
+    #thevideo{
+      position: relative;
     }
 
     #main > section.two {
@@ -638,7 +651,7 @@ button,
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 560px) {
 
   /* Basic */
 
